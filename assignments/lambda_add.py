@@ -13,3 +13,6 @@ print(x(float(input('entre a number : ')))) #float value
 
 x = lambda a :  a+25
 print(x(int(input('entre a number : ')))) #int value-
+
+x = lambda a :  a+25
+print(x(int(10)))
