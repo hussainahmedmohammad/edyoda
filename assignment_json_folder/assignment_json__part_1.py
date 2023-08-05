@@ -1,9 +1,6 @@
-#  1. Create a JSON file (employee.json) containing employee
-#  information of minimum 5 employees. Each employee
-#  information consists of Name, DOB, Height, City, State.
-#  Write a python program that reads this information from
-#  the JSON file and saves the information into a list of
-#  objects of Employee class. Finally print the list
+# Create a JSON file (employee.json) containing employee information of minimum 5 employees. Each employee 
+# information consists of Name, DOB, Height, City, State. Write a python program that reads this information from
+# the JSON file and saves the information into a list of objects of Employee class. Finally print the list
 #  of the Employee objects.
 
 import json
@@ -43,4 +40,7 @@ emp_info = {
 
 with open('employee.json','w') as f:
     json.dump(emp_info,f,indent = 4)
+
+# created employee.json file    
+# go to assignment_json_part2.py file
     
