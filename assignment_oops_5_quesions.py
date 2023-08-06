@@ -150,6 +150,9 @@ class Account:
     def __init__(self,title = None, balance = 0):
          self.title = title
          self.balance = balance
+    
+    def account_details(self):
+        return (f'title is {self.title} and balance is {self.balance}')
         
                 
 class SavingsAccount(Account):
@@ -161,15 +164,16 @@ class SavingsAccount(Account):
         # self.balance = balance
         self.interestRate = interestRate
         
-    def SA_details(self):
+    def savingaccount_details(self):
         return (f'title is {self.title} & bal is {self.balance} & intrest is {self.interestRate}')
         
     
-obj_SA = SavingsAccount('ashish',5000,5)
-obj = SavingsAccount('hussain',2000,2)
+obj1= SavingsAccount('ashish',5000,5)
+obj2 = SavingsAccount('hussain',2000,2)
 
-print(obj_SA.SA_details())
-print(obj.SA_details())
+print(obj2.account_details())
+print(obj1.savingaccount_details())
+print(obj2.savingaccount_details())
 
 # ******************************************************************************************************##
 
