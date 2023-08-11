@@ -1,0 +1,10 @@
+{
+    "1001": {
+        "food_id": 1001,
+        "food_name": "idly",
+        "food_quantity": "2",
+        "food_price": 3.0,
+        "food_discount": 4.0,
+        "food_stock": 3.0
+    }
+}
